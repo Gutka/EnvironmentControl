@@ -1,0 +1,8 @@
+Tvorba envn Virtual environment v terminalu POWERSHELL
+py -m venv venv
+
+Při chybě PS scriptu - otevření virtual environment POWERSHELL
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+V Virtuálním prostředí instaluji
+pip install azure-cosmos
